@@ -1,0 +1,69 @@
+make
+gcc -Wall -Wextra -std=c99 -g -c Mytree.c -o Mytree.o
+gcc -Wall -Wextra -std=c99 -g -c MytreeTest.c -o MytreeTest.o
+gcc -Wall -Wextra -std=c99 -g -c iom361_r2.c -o iom361_r2.o
+iom361_r2.c: In function ‘iom361_readReg’:
+iom361_r2.c:84:21: warning: comparison of unsigned expression in ‘< 0’ is always false [-Wtype-limits]
+   84 |         if ((offset < 0) || (offset > (sizeof(IOSpace) - sizeof(uint32_t)))) {
+      |                     ^
+iom361_r2.c: In function ‘iom361_writeReg’:
+iom361_r2.c:116:37: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+  116 |         if ((offset < 0) || (offset > (sizeof(IOSpace) - sizeof(uint32_t)))) {
+      |                                     ^
+gcc -Wall -Wextra -std=c99 -g -c float_rndm.c -o float_rndm.o
+gcc -Wall -Wextra -std=c99 -g -o mytree_test.exe Mytree.o MytreeTest.o iom361_r2.o float_rndm.o
+                                                                                                                                                                                                             ✓
+
+  05/12/2024   21:17.15   /home/mobaxterm/MyDocuments/PSU CODE/ece 361/HW 5  ./MytreeTest.exe
+bash: ./MytreeTest.exe: No such file or directory
+                                                                                                                                                                                                             ✗
+
+  05/12/2024   21:17.52   /home/mobaxterm/MyDocuments/PSU CODE/ece 361/HW 5  ./mytree_test.exe
+ECE 361 - Binary search tree test
+Current working directory: /drives/c/Users/camdo/OneDrive/Documents/PSU CODE/ece 361/HW 5
+
+
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+Enter a date in december of 2024, type '0 0 0' to quit(YYYY MM DD): Tree contents (inorder traversal):
+Date: 2024-12-01, Temp: 1C, Humid: 82%
+Date: 2024-12-02, Temp: 5C, Humid: 43%
+Date: 2024-12-03, Temp: 72C, Humid: 52%
+Date: 2024-12-04, Temp: 33C, Humid: 21%
+Date: 2024-12-05, Temp: 36C, Humid: 50%
+Date: 2024-12-06, Temp: 72C, Humid: 3%
+Date: 2024-12-07, Temp: 48C, Humid: 36%
+Date: 2024-12-08, Temp: 92C, Humid: 49%
+Date: 2024-12-09, Temp: 43C, Humid: 13%
+Date: 2024-12-10, Temp: 82C, Humid: 68%
+Date: 2024-12-11, Temp: 81C, Humid: 7%
+Date: 2024-12-12, Temp: 75C, Humid: 31%
+Date: 2024-12-13, Temp: 4C, Humid: 68%
+Date: 2024-12-14, Temp: 34C, Humid: 87%
+Date: 2024-12-15, Temp: 49C, Humid: 87%
+Date: 2024-12-16, Temp: 10C, Humid: 21%
+Date: 2024-12-17, Temp: 68C, Humid: 38%
+Date: 2024-12-18, Temp: 5C, Humid: 14%
+Date: 2024-12-19, Temp: 29C, Humid: 5%
+Date: 2024-12-20, Temp: 10C, Humid: 28%
+Date: 2024-12-21, Temp: 13C, Humid: 3%
+Date: 2024-12-22, Temp: 51C, Humid: 83%
+Date: 2024-12-23, Temp: 25C, Humid: 81%
+Date: 2024-12-24, Temp: 25C, Humid: 96%
+Date: 2024-12-25, Temp: 22C, Humid: 5%
+Date: 2024-12-26, Temp: 2C, Humid: 32%
+Date: 2024-12-27, Temp: 90C, Humid: 9%
+Date: 2024-12-28, Temp: 42C, Humid: 55%
+Date: 2024-12-29, Temp: 34C, Humid: 2%
+Date: 2024-12-30, Temp: 16C, Humid: 85%
+Date: 2024-12-31, Temp: 52C, Humid: 3%
+
+Binary search tree destroyed. Exiting program.
+                                                                                                                                                                                                             ✓
+
+  05/12/2024   21:18.10   /home/mobaxterm/MyDocuments/PSU CODE/ece 361/HW 5  make clean
+rm -f Mytree.o MytreeTest.o iom361_r2.o float_rndm.o mytree_test.exe
+                                                                                                                                                                                                             ✓
+
+  05/12/2024   21:18.57   /home/mobaxterm/MyDocuments/PSU CODE/ece 361/HW 5  whoami
+camdo
+                                                                           

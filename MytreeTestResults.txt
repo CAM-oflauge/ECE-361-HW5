@@ -1,0 +1,15 @@
+ECE 361 - Binary search tree test
+Current working directory: C:\Users\camdo\eclipse-workspace\ECE 361 HW5
+
+Tree contents (inorder traversal):
+Timestamp: 1733411120, Temp: 45, Humid: 60
+Timestamp: 1733434520, Temp: 45, Humid: 60
+Timestamp: 1733434540, Temp: 51, Humid: 56
+Timestamp: 1733434550, Temp: 62, Humid: 48
+Timestamp: 1733457950, Temp: 62, Humid: 48
+Timestamp: 1744545691, Temp: 56, Humid: 0
+
+Searching for a specific timestamp:
+Found node: Timestamp: 1744545691, Temp: 56, Humid: 0
+
+Binary search tree destroyed. Exiting program.

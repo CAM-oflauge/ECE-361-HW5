@@ -1,0 +1,62 @@
+ECE 361 - Binary search tree test
+Current working directory: C:\Users\camdo\eclipse-workspace\ECE 361 HW5
+
+
+RedDC= 0% (  0), GrnDC= 0% (  0), BluDC= 0% (  0)       Enable=OFF
+Enter a date in december of 2024, type '0 0 0' to quit(YYYY MM DD): 2024 12 14
+Data found for date 2024-12-14: Temp = 4C, Humid = 1%
+
+Enter a date in december of 2024, type '0 0 0' to quit(YYYY MM DD): 2024 12 17
+Data found for date 2024-12-17: Temp = 20C, Humid = 39%
+
+Enter a date in december of 2024, type '0 0 0' to quit(YYYY MM DD): 2024 12 2
+Data found for date 2024-12-02: Temp = 17C, Humid = 57%
+
+Enter a date in december of 2024, type '0 0 0' to quit(YYYY MM DD): 2024 11 5
+Data not found for that date, try another:2024 12 6
+Data found for date 2024-12-06: Temp = 71C, Humid = 32%
+
+Enter a date in december of 2024, type '0 0 0' to quit(YYYY MM DD): 2024 12 33
+Data not found for that date, try another:2022 12 3
+Data not found for that date, try another:2024 12 30
+Data found for date 2024-12-30: Temp = 23C, Humid = 94%
+
+Enter a date in december of 2024, type '0 0 0' to quit(YYYY MM DD): 2024 12 28
+Data found for date 2024-12-28: Temp = 16C, Humid = 52%
+Enter a date in december of 2024, type '0 0 0' to quit(YYYY MM DD): 0 0 0
+Data not found for that date, try another:
+
+Tree contents (inorder traversal):
+Date: 2024-12-01, Temp: 87C, Humid: 84%
+Date: 2024-12-02, Temp: 17C, Humid: 57%
+Date: 2024-12-03, Temp: 32C, Humid: 28%
+Date: 2024-12-04, Temp: 2C, Humid: 87%
+Date: 2024-12-05, Temp: 81C, Humid: 84%
+Date: 2024-12-06, Temp: 71C, Humid: 32%
+Date: 2024-12-07, Temp: 3C, Humid: 29%
+Date: 2024-12-08, Temp: 96C, Humid: 23%
+Date: 2024-12-09, Temp: 13C, Humid: 25%
+Date: 2024-12-10, Temp: 4C, Humid: 79%
+Date: 2024-12-11, Temp: 85C, Humid: 9%
+Date: 2024-12-12, Temp: 76C, Humid: 46%
+Date: 2024-12-13, Temp: 4C, Humid: 25%
+Date: 2024-12-14, Temp: 4C, Humid: 1%
+Date: 2024-12-15, Temp: 91C, Humid: 92%
+Date: 2024-12-16, Temp: 66C, Humid: 75%
+Date: 2024-12-17, Temp: 20C, Humid: 39%
+Date: 2024-12-18, Temp: 68C, Humid: 25%
+Date: 2024-12-19, Temp: 57C, Humid: 10%
+Date: 2024-12-20, Temp: 96C, Humid: 86%
+Date: 2024-12-21, Temp: 61C, Humid: 71%
+Date: 2024-12-22, Temp: 54C, Humid: 72%
+Date: 2024-12-23, Temp: 58C, Humid: 18%
+Date: 2024-12-24, Temp: 20C, Humid: 29%
+Date: 2024-12-25, Temp: 24C, Humid: 8%
+Date: 2024-12-26, Temp: 84C, Humid: 21%
+Date: 2024-12-27, Temp: 6C, Humid: 36%
+Date: 2024-12-28, Temp: 16C, Humid: 52%
+Date: 2024-12-29, Temp: 15C, Humid: 60%
+Date: 2024-12-30, Temp: 23C, Humid: 94%
+Date: 2024-12-31, Temp: 96C, Humid: 98%
+
+Binary search tree destroyed. Exiting program.
